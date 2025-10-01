@@ -1,0 +1,74 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: #8ED081;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 2vmin;
+    font-size: 8vmin;
+    background-color: #B57F50;
+    box-shadow: 14px -1px 15px -3px rgba(0,0,0,0.71);
+-webkit-box-shadow: 14px -1px 15px -3px rgba(0,0,0,0.71);
+-moz-box-shadow: 14px -1px 15px -3px rgba(0,0,0,0.71);
+border: none;
+font-weight: 600;
+color: black;
+}
+#resetbtn{
+    background-color: #DCE2AA;
+    padding: 3%;
+    border-radius: 3vmin;
+    font-size: 20px;
+    box-shadow: 14px -1px 15px -3px rgba(0,0,0,0.71);
+-webkit-box-shadow: 14px -1px 15px -3px rgba(0,0,0,0.71);
+-moz-box-shadow: 14px -1px 15px -3px rgba(0,0,0,0.71);
+}
+
+#newbtn{
+    background-color: #DCE2AA;
+    padding: 3%;
+    border-radius: 3vmin;
+    font-size: 20px;
+    box-shadow: 14px -1px 15px -3px rgba(0,0,0,0.71);
+-webkit-box-shadow: 14px -1px 15px -3px rgba(0,0,0,0.71);
+-moz-box-shadow: 14px -1px 15px -3px rgba(0,0,0,0.71);
+}
+
+.mesg-container{
+    margin-top :10px;
+}
+
+#mesg{
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight:400;
+    margin-bottom: 10px ;
+}
+
+.hide{
+    display: none;
+}
+    
